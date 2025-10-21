@@ -8,13 +8,10 @@ for(let i=2; i<n;i++){
     isPrime=true
 for (let j=2;j<i;j++){
     //  console.log(i%j==0 )
-    
     if(i%j==0){
         isPrime=false
         break;
-
 } 
-
 }
 // 
 if(isPrime){
@@ -23,4 +20,5 @@ if(isPrime){
     console.log('შერეული')
 }
 }
+
 
